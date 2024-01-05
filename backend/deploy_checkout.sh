@@ -4,5 +4,5 @@ set -e
 
 APPNAME="ecommercepostechapp"
 
-cd ../
+cd ../src
 func azure functionapp publish $APPNAME
