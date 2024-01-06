@@ -6,7 +6,7 @@
             "value": "ecommercepostechapp"
         },
         "storageAccountName": {
-            "value": "ecommercestorageaccount"
+            "value": "ecommerceaccountpostech"
         },
         "accountName": {
             "value": "cosmosdbecommerce"

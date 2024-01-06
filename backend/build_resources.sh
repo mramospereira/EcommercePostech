@@ -7,7 +7,7 @@ SUBSCRIPTION="72577fc5-ca6e-4c91-a1da-6e3d92d63524"
 LOCATION="brazilsouth"
 
 RESOURCEGROUP="ecommerce"
-STORAGEACCOUNTNAME="ecommercestorageaccount"
+STORAGEACCOUNTNAME="ecommerceaccountpostech"
 APPNAME="ecommercepostechapp"
 
 do_login()
