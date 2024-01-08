@@ -1,0 +1,54 @@
+# POST http://localhost:7071/api/Products
+
+# {
+#     "product": {
+#         "Reference": "CBA321",
+#         "Desc": "Prod novo 30",
+#         "Price": 321,
+#         "Category": "Shoes"
+#     }
+# }
+
+# GET http://localhost:7071/api/GetProductsByCategory
+
+# {
+#     "category": "Shirts",
+#     "partitionKey": "Shirts",
+# }
+
+# GET http://localhost:7071/api/GetProductsByCategory
+
+# {
+#     "deleted": "true",
+#     "partitionKey": "Shirts",
+# }
+
+# PUT http://localhost:7071/api/Products
+
+# {
+#     "product": {
+#         "Id": "604fa3d7-809d-4ac6-80cc-e96001f43516",
+#         "Reference": "ABC123",
+#         "Desc": "Prod novo",
+#         "Price": 125,
+#         "Category": "Shoes"
+#     }
+# }
+
+# DELETE http://localhost:7071/api/Products
+
+# {
+#     "product": {
+#         "Id": "604fa3d7-809d-4ac6-80cc-e96001f43516",
+#         "Reference": "ABC123",
+#         "Desc": "Prod novo",
+#         "Price": 125,
+#         "Category": "Shoes"
+#     }
+# }
+
+GET http://localhost:7071/api/GetProductsByCategory
+
+{
+    "partitionKey": "Shirts",
+}
